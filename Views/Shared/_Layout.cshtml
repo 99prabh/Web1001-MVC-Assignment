@@ -37,6 +37,7 @@
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+         @await RenderSectionAsync("Intro", false)
     </div>
 
     <footer class="border-top footer text-muted">
